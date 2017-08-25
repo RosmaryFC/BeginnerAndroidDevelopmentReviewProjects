@@ -5,5 +5,7 @@ Fun Facts App - Created an app using a template, added Textview and Button to sc
 
 Interactive Story App - Created an app that displays images, got input from user via EditText and used that data throughout story, used Intents to start new Activity and pass data, Worked on MVC pattern throughout app.
 
+Stormy App = Created an app that displays current weather using the DarkSky Api. Worked on refreshing data and using threads. 
+
 
 
