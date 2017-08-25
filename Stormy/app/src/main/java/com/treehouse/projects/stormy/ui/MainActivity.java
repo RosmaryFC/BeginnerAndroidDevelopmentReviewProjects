@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.refreshImageView) ImageView mRefreshImageView;
     @BindView(R.id.progressBar) ProgressBar mProgressBar;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
