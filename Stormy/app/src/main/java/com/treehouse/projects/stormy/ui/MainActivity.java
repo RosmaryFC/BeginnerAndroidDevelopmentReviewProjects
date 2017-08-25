@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.treehouse.projects.stormy.BuildConfig;
 import com.treehouse.projects.stormy.R;
 import com.treehouse.projects.stormy.weather.Current;
 import com.treehouse.projects.stormy.weather.Day;
@@ -36,6 +37,7 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String API_KEY = BuildConfig.API_KEY;
     private Forecast mForecast;
 
     @BindView(R.id.timeLabel) TextView mTimeLabel;
@@ -69,9 +71,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getForecast(double latitude, double longitude) {
-        String apiKey = "f52fae5e27f2b4c330a6c74e70b667b1";
-
-        String forecastUrl = "https://api.darksky.net/forecast/"+ apiKey +
+        String forecastUrl = "https://api.darksky.net/forecast/"+ API_KEY +
                 "/" + latitude + "," + longitude ;
 
         if(isNetworkAvailable()) {
