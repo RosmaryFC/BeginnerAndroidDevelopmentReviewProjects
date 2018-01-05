@@ -5,7 +5,7 @@ Android Development Review projects with Treehouse
 
 <b>Interactive Story App</b> - Created an app that displays images, got input from user via EditText and used that data throughout story, used Intents to start new Activity and pass data, Worked on MVC pattern throughout app.
 
-<b>Stormy App</b> - Created an app that displays current weather using the DarkSky Api. Worked on refreshing data and using threads. Used ListView, and RecyclerView to create a list of weather items (displays hourly forecast and Daily forecast).
+<b>Stormy App</b> <i>(Also included in intermediate Android development course)</i>- Created an app that displays current weather using the DarkSky Api. Worked on refreshing data and using threads. Used ListView, and RecyclerView to create a list of weather items (displays hourly forecast and Daily forecast).
   - Used Libraries such as ButterKnife to remove biolerplate code, OkHttp to receive JSON data from the API, and RecyclerView to create a RecyclerView List.
 
 
